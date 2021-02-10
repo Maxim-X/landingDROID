@@ -344,6 +344,7 @@ section#all_def {
 
 section#advantages {
     background: #f2f2f2;
+    padding-bottom: 50px;
 }
 
 h2.head_section {
@@ -367,4 +368,92 @@ h2.head_section:after {content: "";background: #0064dd;width: 80px;height: 3px;p
 
 .advantages_block .desc {
     color: #2b2b2b;
+}
+
+section#contacts {
+    background: #0064dd;
+    padding: 15px 0px 30px 0px;
+}
+
+h2.head_section_white {
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+    font-family: system-ui, sans-serif;
+    color: #ffffff;
+    font-size: 29px;
+    font-weight: 600;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+h2.head_section_white:before {
+    content: "";
+    background: #4c9dff;
+    width: 80px;
+    height: 3px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 30px;
+}
+
+.all_cont_info {
+    display: flex;
+}
+
+.cont_block .title {
+    color: #d7d7d7;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cont_block {
+    margin-right: 30px;
+}
+
+.cont_block:nth-last-child(1) {
+    margin-right: 0px;
+}
+
+.cont_block .cont {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.cont_block .cont a {
+    color: white;
+    text-decoration: none;
+}
+
+.cont_block .cont a:hover {
+    text-decoration: underline;
+}
+
+.all_cont_info_soc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.soc_block .soc_but {
+    background: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
+
+.soc_block a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.soc_block {
+    width: 30%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.soc_block:hover {
+    transform: translateY(-5px);
 }
