@@ -547,3 +547,93 @@ section#all_price {
     font-size: 13px;
 }
 /* СЛАЙДЕР */
+
+
+@media (min-width: 1200px) {
+
+}
+@media (max-width: 1199px){
+.top_head {
+    height: auto;
+}
+
+.all_el_def {
+    grid-template-columns: 100%;
+}
+
+.bottom_head {
+    height: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.dop_info {
+        line-height: initial;
+    display: block;
+    margin: auto;
+    padding: 0px;
+    width: 100%;
+}
+
+.dop_info div {
+    padding: 10px 5px;
+    margin: 0px;
+    text-align: center;
+}
+.slider {
+    height: max-content;
+}
+
+.slides {
+    display: none;
+}
+
+#slide1:checked ~ .slider > .slider1, #slide2:checked ~ .slider > .slider2, #slide3:checked ~ .slider > .slider3, #slide4:checked ~ .slider > .slider4 {
+    position: relative;
+    display: block;
+}
+.main_form {
+    margin-top: 30px;
+}
+
+.advantages_block {
+    margin-top: 30px;
+}
+
+.all_cont_info_soc {
+    margin-top: 30px;
+}
+
+.sec_all_price {
+    grid-template-columns: 100%;
+}
+.top_head .logo {
+    margin: auto;
+    padding: 0px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
