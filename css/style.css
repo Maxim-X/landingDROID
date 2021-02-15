@@ -721,6 +721,9 @@ section#footer {
         max-width: 100%;
         flex: 0 0 100%;
     }
+    section#all_price {
+    margin-bottom: 487px;
+}
 }
 
 @media (max-width: 480px) {
