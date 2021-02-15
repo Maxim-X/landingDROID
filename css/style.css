@@ -545,6 +545,20 @@ section#all_price {
 }
 /* СЛАЙДЕР */
 
+.tel {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: #0064ddd4;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 15px;
+    color: white;
+}
+
+.tel:hover {
+    background: #0064dd;
+}
 
 @media (min-width: 1200px) {
 
